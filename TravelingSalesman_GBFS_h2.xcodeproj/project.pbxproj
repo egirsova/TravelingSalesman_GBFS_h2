@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E64CA3A1A0048A800DB0662 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E64CA391A0048A800DB0662 /* main.cpp */; };
 		9E64CA3C1A0048A800DB0662 /* TravelingSalesman_GBFS_h2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E64CA3B1A0048A800DB0662 /* TravelingSalesman_GBFS_h2.1 */; };
+		9E64CA441A0048CA00DB0662 /* Domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E64CA421A0048CA00DB0662 /* Domain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		9E64CA361A0048A800DB0662 /* TravelingSalesman_GBFS_h2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TravelingSalesman_GBFS_h2; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E64CA391A0048A800DB0662 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E64CA3B1A0048A800DB0662 /* TravelingSalesman_GBFS_h2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TravelingSalesman_GBFS_h2.1; sourceTree = "<group>"; };
+		9E64CA421A0048CA00DB0662 /* Domain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Domain.cpp; sourceTree = "<group>"; };
+		9E64CA431A0048CA00DB0662 /* Domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
+		9E64CA451A0048DA00DB0662 /* GBFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBFS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				9E64CA391A0048A800DB0662 /* main.cpp */,
+				9E64CA421A0048CA00DB0662 /* Domain.cpp */,
+				9E64CA431A0048CA00DB0662 /* Domain.h */,
+				9E64CA451A0048DA00DB0662 /* GBFS.h */,
 				9E64CA3B1A0048A800DB0662 /* TravelingSalesman_GBFS_h2.1 */,
 			);
 			path = TravelingSalesman_GBFS_h2;
@@ -118,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E64CA3A1A0048A800DB0662 /* main.cpp in Sources */,
+				9E64CA441A0048CA00DB0662 /* Domain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
